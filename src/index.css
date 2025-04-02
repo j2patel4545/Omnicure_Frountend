@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.input-field {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#28574E];
+  }
+  .upload-box {
+    @apply relative border-dashed border-2 border-gray-400 rounded-lg p-4 flex flex-col items-center justify-center cursor-pointer;
+  }
+  .upload-area {
+    @apply flex flex-col items-center justify-center text-gray-500 text-xl font-semibold;
+  }
+  .upload-icon {
+    @apply text-5xl text-gray-400;
+  }
+  .preview-img {
+    @apply w-full h-32 object-cover rounded-lg;
+  }
+  .btn-primary {
+    @apply w-full bg-[#28574E] text-white py-3 rounded-lg font-semibold text-lg transition duration-300;
+  }
+  
